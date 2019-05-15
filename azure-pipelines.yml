@@ -29,6 +29,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker BerwoutV'
-    repository: 'example-pipeline'
+    repository: 'berwoutv/example-pipeline'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
